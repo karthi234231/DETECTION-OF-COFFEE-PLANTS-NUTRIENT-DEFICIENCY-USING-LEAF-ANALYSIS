@@ -4,7 +4,13 @@
 
 **Live Demo:** https://nutrient-detection.streamlit.app/
 
-![CoLeaf App Screenshot](screenshot.png)
+<a href="https://nutrient-detection.streamlit.app" target="_blank">
+  <img 
+    src="https://api.microlink.io/?url=https%3A%2F%2Fnutrient-detection.streamlit.app&%20screenshot=true&meta=false&embed=screenshot.url"
+    alt="CoLeaf — Live App Preview"
+    width="100%"
+  />
+</a>
 
 A two-stage deep learning app that detects and classifies nutrient deficiencies in coffee plant leaves.
 
