@@ -1,5 +1,11 @@
 # CoLeaf — Coffee Leaf Nutrient Deficiency Detection
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nutrient-detection.streamlit.app/)
+
+**Live Demo:** https://nutrient-detection.streamlit.app/
+
+![CoLeaf App Screenshot](screenshot.png)
+
 A two-stage deep learning app that detects and classifies nutrient deficiencies in coffee plant leaves.
 
 ## How It Works
@@ -65,7 +71,6 @@ streamlit run app.py
 
 ```
 ├── app.py                      # Main Streamlit app (YOLO + MobileNet pipeline)
-├── app1.py                     # Standalone YOLO detection app
 ├── Augmentation.py             # Dataset augmentation script
 ├── best_mobilenet_model.keras  # Trained MobileNet model
 ├── label_encoder.pkl           # Scikit-learn LabelEncoder (10 classes)
